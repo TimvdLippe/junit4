@@ -14,6 +14,7 @@ import org.junit.runner.FilterOptionIntegrationTest;
 import org.junit.runner.JUnitCommandLineParseResultTest;
 import org.junit.runner.JUnitCoreTest;
 import org.junit.runner.RunWith;
+import org.junit.runner.RunnerOrderTest;
 import org.junit.runner.notification.ConcurrentRunNotifierTest;
 import org.junit.runner.notification.RunNotifierTest;
 import org.junit.runner.notification.SynchronizedRunListenerTest;
@@ -212,7 +213,8 @@ import org.junit.validator.PublicClassValidatorTest;
         ParameterizedNamesTest.class,
         PublicClassValidatorTest.class,
         DisableOnDebugTest.class,
-        ThrowableCauseMatcherTest.class
+        ThrowableCauseMatcherTest.class,
+        RunnerOrderTest.class
 })
 public class AllTests {
     public static Test suite() {
